@@ -100,7 +100,9 @@ def analyze(input_str,mode):
         else:
             raise Exception('Unknown mode')
     else:
-        emotion = arousal = dominance = 0
+        emotion = 5.06    # average V from ANEW dict
+        arousal = 4.21
+        dominance = 5.18
     return emotion,arousal,dominance
 
 if __name__ == "__main__":
