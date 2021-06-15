@@ -1,0 +1,14 @@
+.legend{
+    display: flex;
+}
+
+.legendColor{
+    border:1px solid transparent;
+    height:20px;
+    width: 20px;
+}
+
+.piepie{
+    display: flex;
+    flex-direction: column;
+}

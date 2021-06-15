@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) {
+  body{font-size: 16px;}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  body{font-size: 18px;}
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+    position: relative;
+  }
+  .content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+}
+
+.signin-container{
+  height: 100vh;
+}
+
+.App{
+  height:100vh;
+}

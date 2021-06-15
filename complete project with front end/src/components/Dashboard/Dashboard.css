@@ -1,0 +1,55 @@
+.dashboard-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.card-title{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(163, 163, 163);
+    cursor: pointer;
+    width:180px;
+}
+
+.card-bodyTop{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.one{
+width:49%
+}
+.two{
+    width:48%
+
+}
+.three{
+    width:42%
+}
+.four{
+width:34%
+}
+.five{
+width:20%
+}
+
+.body-radius{
+    border-radius: 12px;
+}
+
+.buzz{
+    overflow-y: scroll;
+    height:300px;
+}
+
+.loaderDiv{
+    display: grid;
+    margin-top: 100px;
+    justify-items: center;
+}
+.loadText{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}

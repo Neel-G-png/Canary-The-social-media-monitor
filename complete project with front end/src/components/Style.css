@@ -1,0 +1,68 @@
+/* a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  } */
+.link{
+    color: rgb(207, 207, 207);
+    text-decoration:none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.link:hover{
+    color:gray !important;
+    text-decoration:none !important;
+}
+.web-name{
+    font-family: 'Arima Madurai', cursive;   
+    color:rgb(49, 49, 49);
+}
+.homepage{
+    height: 100vh;
+    background-image: url(../assets/world.png);
+    background-color: rgb(255, 255, 255);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 1600px 470px;
+}
+.home-nav{
+    display: grid;
+    grid-template-columns: 40fr 1fr;
+}
+.home-login{
+    text-decoration:none;
+    font-size: 25px ;
+    align-self: center;
+    padding-right: 40px;
+}
+.home-name{
+    font-family: 'Arima Madurai', cursive;   
+    color:rgb(49, 49, 49);
+    /* color: white; */
+    font-size: 75px;
+    text-align: center;
+}
+.home-text{
+    text-align: center;
+    font-size: 22px ;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-signup{
+    background-color: transparent;
+    outline: none;
+    border : 1px solid black;
+    padding :10px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-signup{
+    text-align: center;
+}
+
+.home-footer{
+    text-align: center;
+    position: relative;
+    margin-top: -32px;    
+}
