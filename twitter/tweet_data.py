@@ -69,7 +69,7 @@ class MyStreamListener(tweepy.StreamListener):
     def get_keys(self):
         cursor1= mydb.cursor()
         cursor1.execute("SET SESSION TRANSACTION ISOLATION LEVEL READ UNCOMMITTED")
-        cursor1.execute("select * from product_keys")# where user_id = '%s'",val)
+        cursor1.execute("select username,keywords from user_data")# where user_id = '%s'",val)
         users_keywords = cursor1.fetchall()
         for row in users_keywords:
             self.product_keys[row[0]] = row[1]
