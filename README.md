@@ -4,7 +4,9 @@
 
 # Social Monitoring Dashboard
 
-This project was built on react-hooks, context API and flask with JWT authentication. 
+This project was built on react-hooks, context API and flask with JWT authentication.
+
+Along with your peronal mysql connection with 4 seprate tables. Details of which are given below.
 
 With this application we are able to utilize data for data interpretations and visualizations such as Outreach prediction, word cloud, sentiment analysis and brand mentions. 
 
@@ -23,9 +25,23 @@ The outreach prediction where by analyzing the previous trends and training the 
 3. Twitter API V2
 
 ![landing page](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/dashboard.png)
+
 ![signup page](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/signup.png)
+
 ![login page](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/login.png)
+
 ![dashboard page](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/data.png)
+
+## MySql tables you will need
+![Tables](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/tables.PNG)
+
+![User Password Keyword](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/user_data_details.PNG)
+
+![Reddit Data](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/reddit_data_details.PNG)
+
+![Youtube Data](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/youtube_data_details.PNG)
+
+![Twitter Data page](https://github.com/Neel-G-png/Canary-The-social-media-monitor/blob/master/screenshots/twitter_data_details.PNG)
 
 ### `Run all the training files in twitter and youtube folders to generate models`
 Store them in "models" folder inside "api folder"
